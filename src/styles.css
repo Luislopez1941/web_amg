@@ -8,6 +8,8 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #fff;
+    overflow-x: hidden;
+    margin: 0;
 }
 
 a {
