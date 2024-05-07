@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    --color-primary: #ffffff;
+    --color-text-f-h: #000000;
+}
+
+
+  
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+}
+
+a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+  }
+
+

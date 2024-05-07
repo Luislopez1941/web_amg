@@ -1,0 +1,25 @@
+<div>
+    <div class="layout" [style.background-image]="'url(' + sectionOne?.imagen + ')'">
+      <div class="layout__container">
+        <div class="text__title_first">
+          <quill-view-html [content]="sectionOne?.titulo"></quill-view-html>
+        </div>
+      </div>
+    </div>
+    <section class="section__one">
+        <div class="section__one_container">
+            <div *ngFor="let category of sectionOne?.categorias">
+                <div class="imgae__category" [style.background-image]="'url(' + category?.imagen + ')'">
+                </div>
+                <div>
+                  <quill-view-html [content]="category?.nombre"></quill-view-html>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section__two" [style.background-image]="'url(' + imageTwo + ')'">
+      <div class="section__two_container">
+        
+      </div>
+    </section>
+  </div>

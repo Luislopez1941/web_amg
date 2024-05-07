@@ -1,0 +1,29 @@
+.four__section {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 90%;
+    margin: 50px auto;
+}
+
+
+.contact__form {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contact__form > div {
+    margin: 10px 0;
+}
+
+.input__four {
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    text-indent: 15px;
+    height: 40px;
+    background-color: #f6f6f6;
+    border-radius: 4px;
+}
