@@ -12,7 +12,8 @@ import { Service } from '../../services/service.service';
 })
 export class HeaderComponent {
   web: any;
-  menuVisible: boolean = false; 
+  menuVisible: boolean = false;
+
 
   constructor(
   private service:  Service,
@@ -39,7 +40,8 @@ export class HeaderComponent {
     if (button && navLinks) { // Verifica si ambos elementos existen
       button.classList.toggle('activo');
       this.menuVisible = !this.menuVisible; // Alternar el estado del menú
-      navLinks.style.right = this.menuVisible ? '0' : '-200px';
+      navLinks.classList.toggle('active', this.menuVisible);
+
     } 
   }
 
