@@ -99,6 +99,11 @@
     width: 0;
 }
 
+
+.nav__link {
+
+    -webkit-tap-highlight-color: transparent; /* Elimina el resaltado al hacer clic */
+}
 @media screen and (max-width: 768px) {
     .toggle {
         display: block;
@@ -109,7 +114,7 @@
         top: 0;
         right: 0;
         overflow: hidden;
-        width: 200px;
+        width: 50%;
         height: 100%;
         background-color: var(--color-primary);
         padding-top: 50px;
@@ -119,12 +124,16 @@
 
     .nav__links.active {
         clip-path: inset(0 0 0 0);
-    } 
-    
-    .nav__link {
-        margin-bottom: 10px;
-        padding: 20px;
     }
+
+    .nav__item {
+        margin-bottom: 10px;
+        padding: 20px 0;
+    }
+
+
+
+  
 }
 
 
